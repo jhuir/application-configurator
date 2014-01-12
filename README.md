@@ -3,7 +3,7 @@ application-configurator
 
 ##Description
 
-Application configurator is used for easy mapping from commons-configuration Java POJO that can be used to configure your Java applications.
+Application configurator is used for easy mapping from commons-configuration to Java POJO that can be used to configure your Java applications.
 
 ##Code Examples
 
