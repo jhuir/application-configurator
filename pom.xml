@@ -3,10 +3,29 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jhuir</groupId>
 	<artifactId>application-configurator</artifactId>
+    <packaging>jar</packaging>
+    <name>Application Configurator</name>
 	<version>1.0.0</version>
-
-	<name>Application Configurator</name>
-
+    <description>Utility for initializig POJOs from commons-configuration Configuration</description>
+    <url>https://github.com/jhuir/application-configurator/wiki</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/jhuir/application-configurator</url>
+        <connection>https://github.com/jhuir/application-configurator</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>Jhuir</id>
+            <name>Jhuir</name>
+            <email>jhuir.jhuir@gmail.com</email>
+        </developer>
+    </developers>
 	<dependencies>
 		<dependency>
 			<groupId>commons-configuration</groupId>
